@@ -9,16 +9,16 @@ All credits for creating that package go to [@BorisChumichev](https://github.com
 When filing an [issue here](../../issues),
 you should consider filing an [issue there](https://github.com/BorisChumichev/modelicaSublimeTextPackage/issues), too.
 
-For the first conversion step  
+The first conversion step  
 `Sublime Text -> TextMaker`  
-the ant script and XML/XSL files from  
+was done using the ant script and XML/XSL files from  
 https://github.com/srbs/textmate-to-sublime-converter  
-were used.  
 Credits for that conversion script go to [@srbs](https://github.com/srbs).
 
 The second conversion step  
 `TextMaker -> Atom.io`  
-can be done using the Atom.io package manager `apm`.
+can be done using the Atom.io package manager `apm`  
+https://atom.io/docs/latest/converting-a-text-mate-bundle
 
 A step-by-step guide can be found here:  
 https://discuss.atom.io/t/convert-sublime-grammar-to-atom-grammar/14843  
@@ -26,7 +26,7 @@ https://discuss.atom.io/t/convert-sublime-grammar-to-atom-grammar/14843
 At some later point, I might submit this package to the Atom.io package index  
 https://atom.io/packages  
 To use this package today,
-you can just copy the content of this repo to you Atom packages directory:
+you can just clone this repository into your Atom packages directory:
 ```
 cd ~/.atom/packages  
 git clone https://github.com/thorade/atom-language-modelica3
