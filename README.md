@@ -24,7 +24,13 @@ A step-by-step guide can be found here:
 https://discuss.atom.io/t/convert-sublime-grammar-to-atom-grammar/14843  
 
 At some later point, I might submit this package to the Atom.io package index  
-https://atom.io/packages
+https://atom.io/packages  
+To use this package today,
+you can just copy the content of this repo to you Atom packages directory:
+```
+cd ~/.atom/packages  
+git clone https://github.com/thorade/atom-language-modelica3
+```
 
 Please also have a look at this Atom.io Modelica grammar  
 https://github.com/raphaelchenouard/atom-language-modelica  
