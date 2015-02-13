@@ -1,3 +1,31 @@
-# language-modelica3 package
+# atom-language-modelica3
 
-A short description of your package.
+This package was created using an automatic conversion  
+`Sublime Text -> TextMaker -> Atom.io`
+
+The original Sublime Text package is here:  
+https://github.com/BorisChumichev/modelicaSublimeTextPackage  
+All credits for creating that package go to @BorisChumichev.  
+When filing an [issue here](../../issues),
+you should consider filing an [issue there](https://github.com/BorisChumichev/modelicaSublimeTextPackage/issues), too.
+
+For the first conversion step  
+`Sublime Text -> TextMaker`  
+the ant script and XML/XSL files from  
+https://github.com/srbs/textmate-to-sublime-converter  
+were used.  
+Thanks to @srbs for sharing that!
+
+The second conversion step  
+`TextMaker -> Atom.io`  
+can be done using the Atom.io package manager `apm`.
+
+A step-by-step guide can be found here:  
+https://discuss.atom.io/t/convert-sublime-grammar-to-atom-grammar/14843  
+
+At some later point, I might submit this package to the Atom.io package index  
+https://atom.io/packages
+
+Please also have a look at this Atom.io Modelica grammar  
+https://github.com/raphaelchenouard/atom-language-modelica  
+developed by @raphaelchenouard
