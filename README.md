@@ -5,7 +5,7 @@ This package was created using an automatic conversion
 
 The original Sublime Text package is here:  
 https://github.com/BorisChumichev/modelicaSublimeTextPackage  
-All credits for creating that package go to @BorisChumichev.  
+All credits for creating that package go to [@BorisChumichev](https://github.com/BorisChumichev).  
 When filing an [issue here](../../issues),
 you should consider filing an [issue there](https://github.com/BorisChumichev/modelicaSublimeTextPackage/issues), too.
 
@@ -14,7 +14,7 @@ For the first conversion step
 the ant script and XML/XSL files from  
 https://github.com/srbs/textmate-to-sublime-converter  
 were used.  
-Thanks to @srbs for sharing that!
+Credits for that conversion script go to [@srbs](https://github.com/srbs).
 
 The second conversion step  
 `TextMaker -> Atom.io`  
@@ -34,4 +34,4 @@ git clone https://github.com/thorade/atom-language-modelica3
 
 Please also have a look at this Atom.io Modelica grammar  
 https://github.com/raphaelchenouard/atom-language-modelica  
-developed by @raphaelchenouard
+developed by [@raphaelchenouard](https://github.com/raphaelchenouard)
