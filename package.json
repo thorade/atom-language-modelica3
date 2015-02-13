@@ -1,0 +1,12 @@
+{
+  "name": "language-modelica3",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "repository": "https://github.com/thorade/atom-language-modelica3",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
