@@ -1,7 +1,7 @@
 # atom-language-modelica3
 
 This package was created using an automatic conversion  
-`Sublime Text → TextMaker → Atom.io`
+**`Sublime Text → TextMaker → Atom.io`**
 
 The original Sublime Text package is here:  
 https://github.com/BorisChumichev/modelicaSublimeTextPackage  
@@ -10,13 +10,13 @@ When filing an [issue here](../../issues),
 you should consider filing an [issue there](https://github.com/BorisChumichev/modelicaSublimeTextPackage/issues), too.
 
 The first conversion step  
-`Sublime Text → TextMaker`  
+**`Sublime Text → TextMaker`**  
 was done using the ant script and XML/XSL files from  
 https://github.com/srbs/textmate-to-sublime-converter  
 Credits for that conversion script go to [@srbs](https://github.com/srbs).
 
 The second conversion step  
-`TextMaker → Atom.io`  
+**`TextMaker → Atom.io`**  
 can be done using the Atom.io package manager `apm`  
 https://atom.io/docs/latest/converting-a-text-mate-bundle
 
