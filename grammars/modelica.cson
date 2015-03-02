@@ -1,7 +1,7 @@
 fileTypes: [
   "mo"
 ]
-name: "Modelica3"
+name: "Modelica"
 patterns: [
   {
     begin: "/\\*"
@@ -82,7 +82,9 @@ patterns: [
         name: "entity.name.type"
       "2":
         name: "keyword"
-    match: "\\b((model|class|record|block|package)\\s+\\w+)\\b"
+      "3":
+        name: "comment.line"
+    match: "\\b((model|class|record|block|package)\\s+\\w+\\s*(\".*\")*)"
   }
   {
     captures:
@@ -90,7 +92,9 @@ patterns: [
         name: "entity.name.function"
       "2":
         name: "keyword"
-    match: "((function)\\s+\\w+)"
+      "3":
+        name: "comment.line"
+    match: "((function)\\s+\\w+\\s*(\".*\")*)"
   }
   {
     begin: "annotation"
@@ -105,9 +109,21 @@ patterns: [
     ]
   }
   {
+    captures:
+      "1":
+        name: "constant.string"
+    match: "[\"\\w\\)](\\s+\".*\"\\s*);"
+  }
+  {
     begin: "\""
     end: "\""
-    name: "entity.other.inherited-class"
+    name: "constant.string"
+    patterns: [
+      {
+        match: "\\\\."
+        name: "constant.character.escaped"
+      }
+    ]
   }
 ]
 scopeName: "source.modelica"
