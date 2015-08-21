@@ -1,6 +1,7 @@
 # atom-language-modelica3
 
-This package was created using an automatic conversion  
+This package brings Modelica syntax highlight to the Atom editor.  
+The package was created using an automatic conversion  
 **`Sublime Text → TextMaker → Atom.io`**
 
 The original Sublime Text package is here:  
