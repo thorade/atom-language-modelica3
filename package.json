@@ -1,6 +1,6 @@
 {
   "name": "language-modelica3",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Modelica language support in Atom",
   "repository": "https://github.com/thorade/atom-language-modelica3",
   "license": "MIT",
