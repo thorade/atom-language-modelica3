@@ -1,8 +1,8 @@
 # atom-language-modelica3
 
 This repository here is the result of an automatic conversion  
-**`Sublime Text → TextMaker → Atom.io`**
-Parts of the results were contributed to the new "official" Modelica Atom package at  
+**`Sublime Text → TextMaker → Atom.io`**  
+Parts of the results were contributed to the Modelica Atom package at  
 https://github.com/modelica-tools/atom-language-modelica
 
 The original Sublime Text package created by [@BorisChumichev](https://github.com/BorisChumichev). is here:  
