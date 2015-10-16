@@ -1,14 +1,12 @@
 # atom-language-modelica3
 
-This package brings Modelica syntax highlight to the Atom editor.  
-The package was created using an automatic conversion  
+This repository here is the result of an automatic conversion  
 **`Sublime Text → TextMaker → Atom.io`**
+Parts of the results were contributed to the new "official" Modelica Atom package at  
+https://github.com/modelica-tools/atom-language-modelica
 
-The original Sublime Text package is here:  
+The original Sublime Text package created by [@BorisChumichev](https://github.com/BorisChumichev). is here:  
 https://github.com/BorisChumichev/modelicaSublimeTextPackage  
-All credits for creating that package go to [@BorisChumichev](https://github.com/BorisChumichev).  
-When filing an [issue here](../../issues),
-you should consider filing an [issue there](https://github.com/BorisChumichev/modelicaSublimeTextPackage/issues), too.
 
 The first conversion step  
 **`Sublime Text → TextMaker`**  
