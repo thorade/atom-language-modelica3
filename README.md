@@ -17,7 +17,7 @@ Credits for that conversion script go to [@srbs](https://github.com/srbs).
 The second conversion step  
 **`TextMaker → Atom.io`**  
 can be done using the Atom.io package manager `apm`  
-https://atom.io/docs/latest/converting-a-text-mate-bundle
+http://flight-manual.atom.io/hacking-atom/sections/converting-from-textmate/
 
 A step-by-step guide can be found here:  
 https://discuss.atom.io/t/convert-sublime-grammar-to-atom-grammar/14843  
