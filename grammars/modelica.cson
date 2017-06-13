@@ -1,4 +1,4 @@
-'fileTypes': [
+fileTypes: [
   "mo"
 ]
 name: "Modelica"
@@ -21,7 +21,7 @@ patterns: [
     name: "constant.numeric"
   }
   {
-    match: "\\b(Real|Integer|Boolean|String|enumeration)\\b"
+    match: "\\b(Real|Integer|Boolean|String)\\b"
     name: "storage.type"
   }
   {
@@ -55,6 +55,10 @@ patterns: [
   {
     match: "\\b(algorithm|equation|initial equation|protected|public|register|end)\\b"
     name: "keyword"
+  }
+  {
+    match: "\\b(inner|outer)\\b"
+    name: "keyword.other"
   }
   {
     match: "\\b(acos|asin|atan|atan2|cos|cosh|exp|log|log10|sin|sinh|tan|tanh|abs|sign|sqrt|max|min|product|sum)\\b"
@@ -98,7 +102,7 @@ patterns: [
   }
   {
     begin: "annotation"
-    end: '\\)\\s*;\\s*$'
+    end: ";\\s*\\n"
     name: "comment.block"
     patterns: [
       {
